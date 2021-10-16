@@ -1,6 +1,6 @@
 import base64
 
-text = open('ServerForDecode.txt','r')
+text = open('ServerForEecode.txt','r')
 # print(text.read())
 sample_string_bytes = text.read().encode("ascii")
 
