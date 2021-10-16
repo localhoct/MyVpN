@@ -11,7 +11,7 @@ Add The Server to [AnXray](https://github.com/XTLS/AnXray)
 and Use VpN :)
 
 ## Other Client 
-Just open ServerForEncode.txt file and select all copy the ss's server link and go to your client add with import with clipbord
+Just open ServerForEncode.txt file and select all copy the ss's server link and go to your client add with import with clipboard
 
 ## Node
 https://git.io/ostadvpn
