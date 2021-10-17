@@ -1,4 +1,5 @@
-import base64
+import base64, os
+from time import gmtime, strftime
 
 text = open('ServerForEecode.txt','r')
 # print(text.read())
@@ -9,3 +10,6 @@ base64_string = base64_bytes.decode("ascii")
 # print(base64_string)
 with open('SS','w') as f:
     f.write(base64_string)
+
+os.system(f'git commit -am \"{strftime("%Y-%m-%d", gmtime())} +0330 UTC\"')
+os.system('git push origin main')
