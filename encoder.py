@@ -11,5 +11,5 @@ base64_string = base64_bytes.decode("ascii")
 with open('SS','w') as f:
     f.write(base64_string)
 
-os.system(f'git commit -am \"{strftime("%Y-%m-%d %H%M%S %z", gmtime())}\"')
+os.system(f'git commit -am \"Latest Update: {strftime("%Y-%m-%d %H%M%S %z", gmtime())}\"')
 os.system('git push origin main')
